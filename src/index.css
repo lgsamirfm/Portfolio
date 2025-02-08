@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap');
+
+@theme {
+    --color-bg : #101010;
+}
+
+.about {
+    font-family: "Koh Santepheap", serif;
+}
+
+.alatsi {
+    font-family: "Alatsi", serif;
+}

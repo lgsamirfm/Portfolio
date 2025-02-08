@@ -1,0 +1,100 @@
+
+@keyframes moving {
+    to {
+        left: -400px;
+    }
+}
+
+ .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+   
+}
+
+ .skills .known {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ccc;
+    
+}
+
+ 
+
+ .skills .moving-skills {
+    
+    position: relative;
+    overflow: hidden;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-inline: auto;
+    mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 5%,
+    rgba(0,0,0,1) 95%,
+    rgba(0,0,0,0)
+    );
+    background-color: transparent;
+    
+    
+}
+
+ .skills .blur-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    transition: all 0.75s ease;
+}
+
+
+
+
+
+
+
+ .skills .moving-skills .moving-skill {
+    width: 250px;
+    font-size: 30px;
+    position: absolute;
+    left: max(calc(200px * 8) , 100%);
+    animation: moving 20s linear infinite;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    
+    
+}
+
+ .skills .moving-skills .move-item1 {
+    animation-delay: calc((20s / 8) * (8 - 1) * -1);
+}
+ .skills .moving-skills .move-item2 {
+    animation-delay: calc((20s / 8) * (8 - 2) * -1);
+}
+ .skills .moving-skills .move-item3 {
+    animation-delay: calc((20s / 8) * (8 - 3) * -1);
+}
+ .skills .moving-skills .move-item4 {
+    animation-delay: calc((20s / 8) * (8 - 4) * -1);
+}
+ .skills .moving-skills .move-item5 {
+    animation-delay: calc((20s / 8) * (8 - 5) * -1);
+}
+ .skills .moving-skills .move-item6 {
+    animation-delay: calc((20s / 8) * (8 - 6) * -1);
+}
+ .skills .moving-skills .move-item7 {
+    animation-delay: calc((20s / 8) * (8 - 7) * -1);
+}
+ .skills .moving-skills .move-item8 {
+    animation-delay: calc((20s / 8) * (8 - 8) * -1);
+}
