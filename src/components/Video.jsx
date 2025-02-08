@@ -20,7 +20,7 @@ function Video() {
 
     return(
         <>
-            <div className=' mt-30  px-10 min-h-[300vh]'>
+            <div className=' mt-30  px-10 min-h-[150vh]'>
                 <div className='flex flex-col items-center sticky lg:top-15/100 top-2/10'>
                     <motion.h2 
                     className=' lg:text-2xl dark:text-white text-xl'
